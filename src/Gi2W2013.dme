@@ -1,0 +1,41 @@
+// DM Environment file for Gi2W2013.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "icons"
+#define FILE_DIR "sfx"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "skin.dmf"
+#include "map.dmm"
+#include "code\_main.dm"
+#include "code\player.dm"
+#include "code\player_controls.dm"
+#include "code\title_screen.dm"
+#include "code\depend\_procs.dm"
+#include "code\depend\geometry.dm"
+#include "code\depend\grammar.dm"
+#include "code\depend\lines.dm"
+#include "code\interface\_HUD.dm"
+#include "code\logic\_metaworld.dm"
+#include "code\logic\chemistry.dm"
+#include "code\logic\entity.dm"
+#include "code\logic\race.dm"
+#include "code\logic\unit.dm"
+#include "code\logic\unit_components.dm"
+#include "code\logic\geography\_metaflag.dm"
+#include "code\logic\geography\planet.dm"
+#include "code\logic\geography\planet_structures.dm"
+#include "code\logic\geography\star.dm"
+#include "code\logic\geography\views.dm"
+// END_INCLUDE
+
